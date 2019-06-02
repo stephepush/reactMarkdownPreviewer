@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css?family=Share+Tech+Mono");
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.textInputArea {
+  width: 66%;
+  height: 20rem;
+  /*background-color: #587272;*/
+  background-color: black;
+  color: gold;
+  font-family: "Share Tech Mono", monospace;
+  font-size: 1.2em;
+  font-weight: 100;
+  border: 1px solid black;
+  padding: 8px;
+}
+
+#preview {
+  width: 85%;
+  min-height: 800px;
+  color: white;
+  background-color: #587272;
+  padding: 2em;
+}
+
+#container {
+  /*background-color: darkslategrey;*/
+  background-color: #665847;
+  padding-top: 2.5%;
+  padding-bottom: 5%;
+}
+
+#editor,
+#preview {
+  margin: 0 auto;
+}

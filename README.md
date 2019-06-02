@@ -1,2 +1,0 @@
-# reactMarkdownPreviewer
-Created with CodeSandbox
