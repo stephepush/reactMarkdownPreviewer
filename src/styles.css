@@ -4,13 +4,17 @@
   text-align: center;
 }
 
-.input-label {
+.static-heading {
   font-family: "IBM Plex Mono", monospace;
   font-size: 1.5em;
   font-weight: 600;
   color: white;
 }
 
+.form-area {
+  padding-left: 10%;
+  width: 100%;
+}
 .textInputArea {
   width: 66%;
   height: 20rem;

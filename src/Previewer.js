@@ -10,7 +10,10 @@ class Previewer extends React.Component {
   };
   render() {
     return (
-      <div id="preview" dangerouslySetInnerHTML={this.parseMarkdownText()} />
+      <div>
+        <h2 class="static-heading">&nbsp; View formatted output below:</h2>
+        <div id="preview" dangerouslySetInnerHTML={this.parseMarkdownText()} />
+      </div>
     );
   }
 }
