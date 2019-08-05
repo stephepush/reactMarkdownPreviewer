@@ -5,7 +5,9 @@ class Editor extends React.Component {
     return (
       <div>
         <form>
-          <label>Enter your marked-downed text here:</label>
+          <label class="input-label">
+            &nbsp;Enter your markdowned text below:
+          </label>
           <br />
           <textarea
             type="text"

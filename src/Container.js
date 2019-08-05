@@ -1,5 +1,6 @@
 import React from "react";
-
+import { Helmet } from "react-helmet";
+import favicon from "./favicon.ico";
 import Editor from "./Editor";
 import Previewer from "./Previewer";
 
@@ -34,6 +35,11 @@ class Container extends React.Component {
 
     return (
       <div id="container">
+        <Helmet>
+          <meta charSet="utf-8" />
+          <title lang="en">Stephen's Markdown Previewer</title>
+          <link rel="shortcut icon" href={favicon} type="image/x-icon" />
+        </Helmet>
         <Editor
           defaultText={this.state.markdownInput}
           onChange={this.handleTextChange}

@@ -4,6 +4,13 @@
   text-align: center;
 }
 
+.input-label {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 1.5em;
+  font-weight: 600;
+  color: white;
+}
+
 .textInputArea {
   width: 66%;
   height: 20rem;
@@ -20,8 +27,9 @@
 #preview {
   width: 85%;
   min-height: 800px;
-  color: white;
-  background-color: #587272;
+  font-weight: 700;
+  color: black;
+  background-color: #1195c9;
   padding: 2em;
 }
 
